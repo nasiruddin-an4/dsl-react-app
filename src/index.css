@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: "Montserrat", serif;
+}
+
+/*** Button ***/
+.btn-gradient {
+    background-image: linear-gradient(to right, #21D4FD 0%, #B721FF  50%, #00dbde  100%);
+    font-size: 16px;
+    padding: 10px 20px !important;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+}
+.btn-gradient a{
+    color: white;
+}
+.btn-gradient:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
